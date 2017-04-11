@@ -1,0 +1,13 @@
+{
+"Newport"			: "quanta-molmer:12346",
+"LaserController" 	: "quanta-tesla:12345",
+"WaveMeter"			: "quanta-molmer:12345",
+"TempAndHumi"		: "quanta-wigner:12347",
+"CavityTemp1092"	: "quanta-tesla:10000",
+"CavityTemp674"		: "quanta-tesla:8765",
+"QuACK"				: "quanta-hansch:10000",
+"PowerMeter"		: "quanta-landau:10001",
+"Camera"			: "Quanta-landau:10002",
+"Twins_IonP1"		: "quanta-landau:10003",
+"Twins_IonP2"		: "quanta-landau:10004"
+}

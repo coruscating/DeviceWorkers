@@ -1,0 +1,12 @@
+set	a	141e-6
+set	b	75e-6
+set	c	75e-6
+set	w	139e-6
+dc	vtop	-inf	-3*w/2	-c	-w/2
+dc	vtop	a+b 	-3*w/2	inf	-w/2
+dc	vmid	-inf	-w/2	-c 	 w/2
+dc	vmid	a+b 	-w/2	inf	 w/2
+dc	vbottom	-inf	 w/2	-c 	3*w/2
+dc	vbottom	a+b 	 w/2	inf	3*w/2
+rf	r1	a   	-inf	a+b	inf
+rf	r2	-c   	-inf	0	inf

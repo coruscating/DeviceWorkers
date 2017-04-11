@@ -1,0 +1,14 @@
+RF/DC, DB exp, DAC card, DAC channel (0-11), CPGA ,HOA electrode, Capacitance 2016-01-19, notes
+DC, 3, 2, 6, ?, Q64
+DC, 4, 1, 8, ?, Q62
+DC, 6, 2, 7, ?, Q26
+DC, 7, 2, 9, ?, Q27
+DC, 8, 1, 10, ?, Q29
+DC, 12, 1, 7, ?, Q31
+DC, 20, 1, 11, ?, Q66
+DC, 21, 2, 10, ?, Q64
+DC, 33, 2, 0, ?, Q67
+DC, 38, 2, 4, ?, Q65
+DC, 40, 1, 2, ?, Q28
+DC, 41, 2, 3, ?, Q30
+DC, 43, 1, 4, ?, GND

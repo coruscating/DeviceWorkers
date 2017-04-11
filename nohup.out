@@ -1,0 +1,127 @@
+Procname module not found. Using default procname: python
+Using port 12345 from device file
+Server accepting connections on quanta-wigner ip:18.62.18.232 port: 12345
+Launching console for SourceMeter...
+
+Enter HELP for a list of commands
+SourceMeter> Traceback (most recent call last):
+  File "/usr/local/bin/MTserver", line 314, in <module>
+    server.run()
+  File "/usr/local/bin/MTserver", line 170, in run
+    text = sys.stdin.readline().rstrip().upper()
+IOError: [Errno 9] Bad file descriptor
+Procname module not found. Using default procname: python
+Using port 12345 from device file
+ERROR: Could not open socket: Address already in use
+ERROR: Could not open socket: Address already in use
+Server accepting connections on quanta-wigner ip:18.62.18.232 port: 12347
+Launching console for SourceMeter...
+
+Enter HELP for a list of commands
+SourceMeter> Traceback (most recent call last):
+  File "/usr/local/bin/MTserver", line 314, in <module>
+    server.run()
+  File "/usr/local/bin/MTserver", line 170, in run
+    text = sys.stdin.readline().rstrip().upper()
+IOError: [Errno 9] Bad file descriptor
+Procname module not found. Using default procname: python
+Error: No module named QuadComm
+Traceback (most recent call last):
+  File "/usr/local/bin/MTserver.py", line 63, in __init__
+    self.worker = Worker(self,string.split(workerName,'Worker')[0])
+  File "/root/Dropbox (MIT)/Quanta/Software/GitHub/MTServer/MTWorker.py", line 60, in __init__
+    self.devicecomm = importlib.import_module('%sComm'%(workerName)).Comm()
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+ImportError: No module named QuadComm
+
+ERROR: Could not open socket: Address already in use
+Server accepting connections on quanta-tesla ip:18.62.18.242 port: 12346
+Traceback (most recent call last):
+  File "/usr/local/bin/MTserver.py", line 314, in <module>
+    server.run()
+  File "/usr/local/bin/MTserver.py", line 128, in run
+    self.worker.start()
+AttributeError: Server instance has no attribute 'worker'
+Procname module not found. Using default procname: python
+Using port 12346 from device file
+Found 2 attached FPGAs
+Traceback (most recent call last):
+  File "/usr/local/bin/MTserver.py", line 313, in <module>
+    server = Server(args["worker"], args["port"])
+  File "/usr/local/bin/MTserver.py", line 63, in __init__
+    self.worker = Worker(self,string.split(workerName,'Worker')[0])
+  File "/root/Dropbox (MIT)/Quanta/Software/GitHub/MTServer/MTWorker.py", line 60, in __init__
+    self.devicecomm = importlib.import_module('%sComm'%(workerName)).Comm()
+  File "/root/Dropbox (MIT)/Quanta/Software/GitHub/DeviceWorkers/QuADComm.py", line 38, in __init__
+    if (self.xem.OpenBySerial(DEVICESERIAL)==0):
+  File "/usr/lib/python2.7/dist-packages/ok/ok.py", line 225, in OpenBySerial
+    def OpenBySerial(self, *args): return _ok.FrontPanel_OpenBySerial(self, *args)
+KeyboardInterrupt
+Procname module not found. Using default procname: python
+Using port 12346 from device file
+Found 2 attached FPGAs
+Opened an FPGA known as 1092nm QuADController
+Now loading PLL configuration...
+System clock to be set @ 180MHz
+SPI clock to be set @ 180MHz
+Loading the bitfile...
+Bitfile loaded!
+Engaging default state...
+Setting DAC at position 0 to binary offset mode
+Writing 0.0 to DAC at position 0
+Setting DAC at position 1 to binary offset mode
+Writing 0.0 to DAC at position 1
+Setting DAC at position 2 to binary offset mode
+Writing 0.0 to DAC at position 2
+Setting DAC at position 3 to binary offset mode
+Writing 0.0 to DAC at position 3
+Setting DAC at position 4 to binary offset mode
+Writing 0.0 to DAC at position 4
+Setting DAC at position 5 to binary offset mode
+Writing 0.0 to DAC at position 5
+Setting DAC at position 6 to binary offset mode
+Writing 0.0 to DAC at position 6
+Setting DAC at position 7 to binary offset mode
+Writing 0.0 to DAC at position 7
+Delay code = 0000000101001100
+a1 = 0
+a2 = 0
+b0 = 8192
+b1 = 0
+b2 = 0
+Delay code = 0000000101001100
+a1 = 0
+a2 = 0
+b0 = 8192
+b1 = 0
+b2 = 0
+Delay code = 0000000101001100
+a1 = 0
+a2 = 0
+b0 = 8192
+b1 = 0
+b2 = 0
+Delay code = 0000000101001100
+a1 = 0
+a2 = 0
+b0 = 8192
+b1 = 0
+b2 = 0
+Delay code = 0000000101001100
+a1 = 0
+a2 = 0
+b0 = 8192
+b1 = 0
+b2 = 0
+Default state set.  Welcome to the QuADCon!
+Server accepting connections on quanta-tesla ip:18.62.18.242 port: 12346
+Launching console for QuAD...
+
+Enter HELP for a list of commands
+QuAD> Traceback (most recent call last):
+  File "/usr/local/bin/MTserver.py", line 314, in <module>
+    server.run()
+  File "/usr/local/bin/MTserver.py", line 170, in run
+    text = sys.stdin.readline().rstrip().upper()
+IOError: [Errno 9] Bad file descriptor

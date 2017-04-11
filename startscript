@@ -1,0 +1,6 @@
+MTserver Shutters
+MTserver AgilentEQ -p 12347
+MTserver PhotonCounter -p 12346
+MTserver PowerMeter -p 10000
+MTserver WaveMeter -p 11111
+MTserver PulseProgrammer -p 12348
